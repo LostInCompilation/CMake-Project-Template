@@ -47,7 +47,13 @@ project("Project"
 )
 
 # Main library
-add_library("${PROJECT_NAME}"
+#add_library("${PROJECT_NAME}"
+#	include/Main.hpp
+#	src/Main.cpp
+#)
+
+# Main executable
+add_executable("${PROJECT_NAME}"
 	include/Main.hpp
 	src/Main.cpp
 )
